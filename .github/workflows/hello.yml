@@ -1,0 +1,14 @@
+name: testing workflow
+
+on:
+  push
+  
+jobs:
+  build:
+    name: test wf
+    runs-on: ubuntu-latest
+    step:
+      run: echo 'welcome to my world'
+    
+
+  
